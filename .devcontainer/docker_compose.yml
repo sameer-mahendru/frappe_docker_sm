@@ -51,7 +51,7 @@ services:
     environment:
       - SHELL=/bin/bash
     volumes:
-      - ..:/workspace:cached
+      - frappe-data:/workspace:cached
       # Enable if you require git cloning
       # - ${HOME}/.ssh:/home/frappe/.ssh
     working_dir: /workspace/development
