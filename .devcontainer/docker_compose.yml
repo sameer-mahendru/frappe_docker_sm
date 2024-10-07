@@ -86,6 +86,7 @@ services:
   #     - ..:/workspace:z,cached
   #   network_mode: "host"
 volumes:
+  frappe-data:
   mariadb-data:
   #postgresql-data:
   #mailpit-data:
